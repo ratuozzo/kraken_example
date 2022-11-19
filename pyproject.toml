@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kraken-test"
+version = "0.1.0"
+description = ""
+authors = ["ratuozzo <ratuozzo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kraken_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pykrakenapi = "^0.3.1"
+streamlit = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
