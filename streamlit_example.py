@@ -4,8 +4,9 @@ import streamlit as st
 
 api = krakenex.API()
 k = KrakenAPI(api)
-pairs = k.get_tradable_asset_pairs()
 
+
+pairs = k.get_tradable_asset_pairs()
 
 st.title("Kraken API")
 st.header("get_tradable_asset_pairs()")
